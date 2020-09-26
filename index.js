@@ -17,9 +17,10 @@ function currentLine(line) {
   if (line.length === 0) {
     return "The line is currently empty."
   } else {
-    var i=0;
-    while( i< line.length) {
-       return ("The line is currently:" + ` ${i+1}. ` + ` ${line[i]}`)
+    var nan = []
+    for( let i=0,  i< line.length, i++) {
+       nan.push(`${i+1}. ${line[i]}`)
     }
+    return `The line is currently: ${nan.join(", ")}`
   }
 }

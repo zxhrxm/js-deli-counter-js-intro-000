@@ -1,4 +1,3 @@
 function takeANumber(n, name) {
-  
-}
 
+}
